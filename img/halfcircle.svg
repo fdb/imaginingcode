@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="161px" height="357px" viewBox="0 0 161 357" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 2</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="A4" transform="translate(-434.000000, -116.000000)">
+            <g id="Group-2" transform="translate(434.000000, 115.000000)">
+                <path d="M181,359 C81.0364603,359 0,278.635113 0,179.5 C0,80.3648874 81.0364603,0 181,0 C280.96354,0 362,80.3648874 362,179.5 C362,278.635113 280.96354,359 181,359 Z M181.482667,28.4920635 L91.2646839,57.3320131 L35.5069041,132.835981 L35.5069041,226.164019 L91.2646839,301.667987 L181.482667,330.507937 L271.700649,301.667987 L327.458429,226.164019 L327.458429,132.835981 L271.700649,57.3320131 L181.482667,28.4920635 Z" id="Combined-Shape" fill="#BD10E0"></path>
+                <polygon id="Polygon" stroke="#BD10E0" stroke-width="5" points="181 41 264.465506 67.6421293 316.050025 137.392129 316.050025 223.607871 264.465506 293.357871 181 320 97.5344942 293.357871 45.9499747 223.607871 45.9499747 137.392129 97.5344942 67.6421293"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

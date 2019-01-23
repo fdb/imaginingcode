@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body { margin: 0; padding: 0; font-family: Roboto, sans-serif; min-height: 100%; }
+.wrapper { text-align: center;  }
+.intro { position: relative; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.intro__inner {  }
+.intro__arrow { position: absolute; bottom: 30px; left: calc(-50px + 50vw); z-index: -9; }
+.intro__star { text-align: center; margin-bottom: 20px; z-index: -9; margin-top: 20px; }
+.intro__comments { position: absolute; top: 0; right: 0; z-index: -9; }
+.intro__header { margin-bottom: 50px; z-index: 10; margin-top: 100px; }
+.intro__halfcircle { position: absolute; top: 50vh; right: 0; }
+.intro__title { font-size: 48px; font-weight: bold; letter-spacing: -1px; color: #3C3B62; margin: 0; text-align: center; }
+.intro__byline { font-size: 24px; font-weight: bold; margin: 0; text-align: center; }
+.intro__date { z-index: 10; }
+.intro__date h1 { margin: 0 0 5px 0; font-size: 24px; }
+.intro__date h2 { margin: 0 0 5px 0; font-size: 18px; }
+.intro__desc { z-index: 10; margin-bottom: 50px; }
+.intro__desc h1 { margin: 0 0 10px 0; background: yellow; }
+.intro__desc p { margin: 0; }
+/*.desc { height: 100vh; background: #323554; color: #eee; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 10vh 30vh; } */
+
