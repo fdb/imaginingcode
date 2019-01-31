@@ -35,12 +35,13 @@ header .container { flex: 1; display: flex; align-items: center; }
 .expert__main { display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 100px; }
 .expert__body { flex-basis: 60%; }
 .expert__logo { max-width: 20vw; }
-.expert__field { color: #333333; font-size: 12pt; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: -1px; }
+.expert__field { color: #333333; font-size: 12pt; margin-bottom: 30px; text-transform: uppercase; letter-spacing: -1px; }
 .expert__summary { font-size: 14pt; line-height: 1.6; margin-bottom: 50px; }
 .expert__text { font-size: 11pt; margin-bottom: 1rem; }
 .expert__sidebar { flex-basis: 40%; padding: 0 10%; margin-top: 100px; display: flex; flex-direction: column; align-items: center; }
 .expert__bio { font-size: 11pt; margin-bottom: 1rem; }
 .expert__mugshot { margin-bottom: 50px; }
+.expert__logo { margin-bottom: 30px; }
 
 .expert__images { max-width: 50vw; }
 .expert__image { display: flex; flex-direction: column; align-items: center; }
