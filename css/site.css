@@ -1,14 +1,60 @@
-* { box-sizing: border-box; }
-body { margin: 0; padding: 0; font-family: Roboto, sans-serif; min-height: 100%; }
+*, ::after, ::before { box-sizing: border-box; margin: 0; padding: 0; }
+img { max-width: 100%; }
+html { background-color: #fff; color: #191919; font-family: Montserrat,Arial,sans-serif; font-size: 100%; line-height: 1.75; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+body { margin: 0; padding: 0; min-height: 100%; width: 100%; overflow-x: hidden; min-width: 320px; }
 .wrapper { text-align: center;  }
-.intro { position: relative; min-height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.u-push-right { margin-left: auto; }
+
+section { display: flex; flex-direction: row; justify-content: center;  }
+.container { max-width: 1050px;  }
+
+
+header { height: 70px; background: white; display: flex; justify-content: center; }
+header .container { flex: 1; display: flex; align-items: center; }
+.header__logo { font-weight: bold; text-decoration: none; color: inherit; font-size: 16pt; margin-right: 30px; }
+.header__nav { flex: 1; display: flex; justify-content: flex-start; align-items: center; }
+.header__navlink { display: block; text-decoration: none; color: inherit; font-size: 12pt; font-weight: normal; margin-right: 30px; }
+.header__button { background-color: #611f69; color: #fff; text-transform: uppercase; white-space: nowrap; font-size: 14px; padding: 1rem; border-radius: 4px; }
+
+.hero { background-color: #4B124C; padding: 50px; padding-bottom: 100px; clip-path: polygon(0 0,100% 0,100% calc(100% - 3vw),0 100%); }
+.hero__container { align-items: center; display: flex; flex-direction: column; justify-content: center; }
+.hero__image { margin: 50px; }
+.hero__title { font-size: 48pt; color: white; margin-bottom: 30px; }
+.hero__subtitle { font-size: 14pt; color: white; font-weight: normal; }
+
+.intro { display: flex; flex-direction: row; justify-content: center;  }
+.intro__container { display: flex; flex-direction: column; align-items: center; padding-top: 100px; padding-bottom: 100px; }
+.intro__title { line-height: 1.2; margin-bottom: 50px; font-size: 24pt; text-align: center; }
+.intro__blurb { max-width: 54rem; text-align: center; }
+
+.experts__title { font-size: 48pt;  }
+
+.beyond__section { background-color: #A5F2E6; clip-path: polygon(0 0, 100% 10vw, 100% calc(100% - 10vw), 0 100%); }
+
+.expert__container { display: flex; flex-direction: column; align-items: center; padding-top: 100px; padding-bottom: 150px; }
+.expert__main { display: flex; flex-direction: row; justify-content: space-between; margin-bottom: 100px; }
+.expert__body { flex-basis: 60%; }
+.expert__logo { max-width: 20vw; }
+.expert__field { color: #333333; font-size: 12pt; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: -1px; }
+.expert__summary { font-size: 14pt; line-height: 1.6; margin-bottom: 50px; }
+.expert__text { font-size: 11pt; margin-bottom: 1rem; }
+.expert__sidebar { flex-basis: 40%; padding: 0 10%; margin-top: 100px; display: flex; flex-direction: column; align-items: center; }
+.expert__bio { font-size: 11pt; margin-bottom: 1rem; }
+.expert__mugshot { margin-bottom: 50px; }
+
+.expert__images { max-width: 50vw; }
+.expert__image { display: flex; flex-direction: column; align-items: center; }
+.expert__image img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); }
+.caption { font-size: 10pt; margin-top: 5px; }
+.caption a { color: inherit; }
+
 .intro__inner {  }
 .intro__arrow { position: absolute; bottom: 30px; left: calc(-50px + 50vw); z-index: -9; }
 .intro__star { text-align: center; margin-bottom: 20px; z-index: -9; margin-top: 20px; }
 .intro__comments { position: absolute; top: 0; right: 0; z-index: -9; }
 .intro__header { margin-bottom: 50px; z-index: 10; margin-top: 100px; }
 .intro__halfcircle { position: absolute; top: 50vh; right: 0; }
-.intro__title { font-size: 48px; font-weight: bold; letter-spacing: -1px; color: #3C3B62; margin: 0; text-align: center; }
+.xintro__title { font-size: 48px; font-weight: bold; letter-spacing: -1px; color: #3C3B62; margin: 0; text-align: center; }
 .intro__byline { font-size: 24px; font-weight: bold; margin: 0; text-align: center; }
 .intro__date { z-index: 10; margin-bottom: 50px;  }
 .intro__date h1 { margin: 0 0 5px 0; font-size: 24px; }
