@@ -43,7 +43,7 @@ header { background: white; display: flex; flex-direction: row; justify-content:
 .hero__address { font-size: 0.7rem; margin-top: -0.5rem; }
 
 .intro { display: flex; flex-direction: row; justify-content: center;  }
-.intro__container { display: flex; flex-direction: column; align-items: center; padding: 100px 5vw; }
+.intro__container { display: flex; flex-direction: column; align-items: center; padding: 50px 5vw 0 5vw; }
 .intro__title { line-height: 1.2; margin-bottom: 50px; font-size: 24pt; text-align: center; }
 .intro__blurb { max-width: 40rem; text-align: center; margin-bottom: 3rem; }
 .intro__subtitle { color: #555; text-transform: uppercase; letter-spacing: -0.5px; }
