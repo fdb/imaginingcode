@@ -13,34 +13,72 @@
 </head>
 <body>
 <header role="banner">
-  <div class="container" role="navigation" aria-label="Primary Navigation">
+  <div class="container header__container" role="navigation" aria-label="Primary Navigation">
     <a href="#" class="header__logo">Imagining Code</a>
-    <nav class="header__nav">
-      <a class="header__navlink" href="#wat">Wat</a>
-      <a class="header__navlink" href="#wie">Wie</a>
-      <a class="header__navlink" href="#waar">Waar</a>
-      <div class="header__navlink u-push-right">23 februari 2019, Sint Lucas Antwerpen</div>
-      <a class="header__navlink header__button" href="#signup">Inschrijven</a>
-    </nav>
+    <div class="header__cta">
+      <p class="header__info">23 februari 2019, Sint Lucas Antwerpen</p>
+      <a class="header__button" href="https://docs.google.com/forms/d/e/1FAIpQLSfMR3NDfo2IlcGefOdgGxB_jqFoS8B2ox3aYl-081GFKZ7rTg/viewform">Inschrijven</a>
+    </div>
   </div>
 </header>
 <main role="main">
   <section class="hero">
     <div class="container hero__container">
-      <img class="hero__image" width="483" src="img/woman.png" alt="Woman">
+      <img class="hero__image" width="200" src="img/woman.png" alt="Woman">
       <h1 class="hero__title">Imagining Code</h1>
       <h2 class="hero__subtitle">Eén dag vol uitdagende workshops rond visual coding, VR en physical computing</h2>
+      <p class="hero__info">23 februari 2019 (9u30 — 18u), Sint Lucas Antwerpen</p>
+      <p class="hero__address"><a href="https://goo.gl/maps/7Rvr2E84p5r">Van Schoonbekestraat 143, 2018 Antwerpen</a></p>
     </div>
   </section>
 
   <section class="intro">
     <div class="container intro__container">
-      <h1 class="intro__title">Gepassioneerd door technologie en creatie?</h1>
+      <h1 class="intro__title">Gepassioneerd door technologie en visuele creatie?</h1>
       <p class="intro__blurb">Op zaterdag 23 februari 2019 kan je kijken hoe het er écht aan toe gaat. Op die dag organiseert Sint Lucas Antwerpen 3 uitdagende workshops voor 16 tot 18-jarigen.</p>
+      <img class="intro__image" src="img/code.jpg" alt="Code on a computer">
+      <ul class="intro__workshops">
+        <li class="intro__workshop">
+          <img class="intro__workshop-icon" src="img/head-vr-light.svg" alt="Virtual Reality">
+          <h3 class="intro__workshop-title">Virtual Reality</h3>
+          <p>Ontdek de mogelijkheden van VR en maak je eigen werelden. Bouw nieuwe creaties via de Oculus Rift.</p>
+        </li>
+        <li class="intro__workshop">
+          <img class="intro__workshop-icon" src="img/microchip-light.svg" alt="Physical Computing">
+          <h3 class="intro__workshop-title">Physical Computing</h3>
+          <p>Integreer digitale creaties met de echte wereld. Stuur intelligente machines via je smartphone.</p>
+        </li>
+        <li class="intro__workshop">
+          <img class="intro__workshop-icon" src="img/draw-polygon-light.svg" alt="Visual Coding">
+          <h3 class="intro__workshop-title">Visual Coding</h3>
+          <p>Maak interactieve visuele creaties via code. Leer de kracht van Processing en creatief programmeren.</p>
+        </li>
+      </ul>
+      <p class="intro__blurb">Je hoeft zelfs niet te kiezen: gedurende de dag kan je alle 3 workshops volgen. Zo proef je van het hele aanbod. Iedere workshop duurt ongeveer 2 uur. </p>
+      <div class="intro__cta">
+        <a class="intro__button" href="https://docs.google.com/forms/d/e/1FAIpQLSfMR3NDfo2IlcGefOdgGxB_jqFoS8B2ox3aYl-081GFKZ7rTg/viewform">Inschrijven</a>
+        <p class="intro__help">Inschrijven is gratis — plaatsen zijn beperkt!</p>
+      </div>
     </div>
   </section>
 
-  <section class="experts">
+  <section class="sdata">
+    <div class="container sdata__container">
+      <div class="grid">
+        <div class="grid__cell grid__forty">
+          <h1 class="sdata__title">Studio Data</h1>
+          <p>Vanaf academiejaar 2019-2020 start Studio Data, een nieuwe bachelor-opleiding op Sint Lucas Antwerpen waar we kunst, ontwerp en code combineren. </p>
+          <p>We organiseren de Imagining Code workshop als een voorproefje op wat je binnen Studio Data allemaal zal tegenkomen. Als je geboeid bent door de workshop, lees dan zeker meer over Studio Data!</p>
+          <p><a href="#">Meer info over Studio Data</a></p>
+        </div>
+        <div class="grid__cell grid__forty sdata__asset">
+          <img src="img/laura-broux.jpg" alt="Laura Broux">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!--   <section class="experts">
     <div class="container experts__container">
       <h1 class="experts__title" >Meet our experts</h1>
     </div>
@@ -61,47 +99,64 @@
           <p class="expert__bio"><strong>Kevin Verelst</strong> is mede-oprichter van beyond.io. Hij neemt de rol op van art director en creative technologist. Concreet betekent dit dat hij graag erg hands-on technologie en creativiteit combineert om dingen te maken, fysiek, digitaal en liefst een combinatie van beide, die een glimlach op mensen hun gezicht tovert.</p>
         </div>
       </div>
-      <div class="expert__images">
-        <div class="expert__image">
-          <img src="img/beyond-momu-wall.jpg" alt="MoMu Explorer, beyond.io, 2018">
-          <p class="caption"><a href="https://www.beyond.io/cases/momu-explorer/">MoMu Explorer</a>, Beyond.io, 2018</p>
-        </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="project">
+      <img class="project__image" src="img/beyond-momu-wall.jpg" alt="MoMu Explorer, beyond.io, 2018">
+      <p class="project__caption"><a href="https://www.beyond.io/cases/momu-explorer/">MoMu Explorer</a>, Beyond.io, 2018</p>
+    </div>
+  </section>
+ -->
+
+<section class="experts">
+    <div class="container experts__container">
+      <h1 class="experts__title" >Meet our new campus</h1>
+    </div>
+  </section>
+
+  <section class="campus">
+    <div class="container campus__container">
+      <!-- <h1 class="campus__title">Meet our new campus</h1> -->
+      <p class="campus__blurb">Begin februari 2019 verhuist Sint Lucas naar een gloednieuwe campus aan de Markgravelei in Antwerpen. Ontdek mee hoe deze nieuwe campus een plek is waar je je creativiteit tot uiting kan laten komen!</p>
+      <div class="campus__images">
+        <img src="img/campus-1.jpg" alt="Campus Sint Lucas Antwerpen">
+        <img src="img/campus-2.jpg" alt="Campus Sint Lucas Antwerpen">
+        <img src="img/campus-3.jpg" alt="Campus Sint Lucas Antwerpen">
+        <img src="img/campus-4.jpg" alt="Campus Sint Lucas Antwerpen">
+      </div>
+
+    </div>
+  </section>
+
+  <section class="outro">
+    <div class="container outro__container">
+      <div class="outro__asset"><img src="img/woman.png" alt=""></div>
+      <div class="outro__body">
+        <h1 class="outro__title">Time to shape the future</h1>
+        <p class="outro__blurb">Imagining Code is een fantastische introductie in het creatief gebruik van nieuwe technologie: visual coding, VR, en physical computing.</p>
+        <p class="outro__blurb">Zin om mee te doen op 23 februari?  Schrijf je dan nu in!</p>
+        <a class="outro__button" href="https://docs.google.com/forms/d/e/1FAIpQLSfMR3NDfo2IlcGefOdgGxB_jqFoS8B2ox3aYl-081GFKZ7rTg/viewform">Inschrijven</a>
+        <p class="outro__help">Inschrijven is gratis — plaatsen zijn beperkt!</p>
       </div>
     </div>
   </section>
+
+  <footer>
+    <div class="container footer__container">
+      <div class="footer__logo">
+        <a href="https://www.sintlucasantwerpen.be/"><img src="img/sla-logo.svg" alt="" height="50"></a>
+      </div>
+      <div class="footer__links">
+        <a href="https://www.kdg.be/gebruiksvoorwaarden-en-privacy" class="footer__navlink">Privacy</a>
+        <a href="https://www.sintlucasantwerpen.be/over-ons/twee-campussen/" class="footer__navlink">Contacteer Ons</a>
+      </div>
+    </div>
+  </footer>
 
 
 
 
 </main>
-
-<div class="wrapper">
-  <section class="intro section">
-    <div class="intro__comments"><img src="img/comments.svg"></div>
-    <div class="intro__halfcircle"><img src="img/halfcircle.svg"></div>
-    <div class="intro__header">
-      <div class="intro__star"><img src="img/star.svg"></div>
-      <h1 class="intro__title">Imagining Code Workshop</h1>
-      <h2 class="intro__byline">Build radical art and design through technology</h2>
-    </div>
-    <div class="intro__desc">
-       <h1 class="intro__abstract">Uitdagende workshops rond data-visualisatie, VR en physical computing</h1>
-       <p>Voor 16-18-jarigen die gepassioneerd zijn door technologische innovatie en creativiteit.</p>
-    </div>
-    <div class="intro__date">
-      <h1>Zaterdag 23 februari 2019</h1>
-      <h2>Campus Sint Lucas Antwerpen<br>Van Schoonbekestraat 143</h2>
-    </div>
-    <div class="intro__email">
-      <p><strong>Meer info komt eraan!</strong> Schrijf je nu al in:</p>
-      <form name="contact" method="POST" data-netlify="true">
-      <div class="intro__input"><input class="intro__inputField" type="email" name="email" placeholder="jouw@email.com"></div>
-      </form>
-    </div>
-    <div class="intro__credits">
-      Een initiatief van de bachelor-opleiding <a href="https://www.sintlucasantwerpen.be/opleidingen/acdemische-bachelor-in-de-beeldende-kunsten/studio-data">Studio Data</a> van <a href="https://www.sintlucasantwerpen.be/">Sint Lucas Antwerpen</a>
-    </div>
-    <!-- <div class="intro__arrow"><svg viewBox="0 0 100 30" width="100" height="30"><path d="M5 5L51 20L95 5" fill="none" stroke="#3C3B62" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path></svg> -->
-  </section>
-</div>
 </html>
