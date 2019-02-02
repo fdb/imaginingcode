@@ -23,13 +23,16 @@ section { display: flex; flex-direction: row; justify-content: center;  }
 
 header { background: white; display: flex; flex-direction: row; justify-content: center; }
 .header__container { flex: 1; display: flex; flex-direction: column; align-items: center; padding: 10px 15px; }
-@media all and (min-width: 700px) { header .container { flex-direction: row; justify-content: space-between; } }
-.header__logo { font-weight: bold; text-decoration: none; color: inherit; font-size: 1.2rem; margin-right: 30px; white-space: nowrap; }
+.header__logo { font-weight: bold; text-decoration: none; color: inherit; font-size: 1.2rem; margin-bottom: 1rem; white-space: nowrap; }
 .header__nav { flex: 1; display: flex; justify-content: flex-start; align-items: center; }
 .header__navlink { display: block; text-decoration: none; color: inherit; font-size: 12pt; font-weight: normal; margin-right: 30px; }
 .header__button { display: block; background-color: #611f69; color: #fff; text-transform: uppercase; white-space: nowrap; font-size: 14px; padding: 1rem; border-radius: 4px; text-decoration: none; }
 .header__cta { display: flex; flex-direction: row; justify-content: space-between; align-items: center;  }
 .header__info { margin: 0; margin-right: 15px; }
+@media all and (min-width: 700px) {
+  header .container { flex-direction: row; justify-content: space-between; }
+  .header__logo { margin-bottom: 0; margin-right: 2rem; }
+}
 
 .hero { background-color: #4B124C; background-image: url(../img/background.png); color: white; padding: 50px; padding-bottom: 100px; -webkit-clip-path: polygon(0 0,100% 0,100% calc(100% - 3vw),0 100%); clip-path: polygon(0 0,100% 0,100% calc(100% - 3vw),0 100%); }
 .hero__container { align-items: center; display: flex; flex-direction: column; justify-content: center; }
@@ -49,8 +52,9 @@ header { background: white; display: flex; flex-direction: row; justify-content:
 .intro__cta { margin-bottom: 2rem; }
 .intro__button { display: block; background-color: #611f69; color: #fff; text-transform: uppercase; white-space: nowrap; font-size: 14px; padding: 1rem; border-radius: 4px; text-decoration: none; margin-bottom: 0.4rem; text-align: center; }
 .intro__help { font-size: 0.8rem; }
-.intro__workshops { flex: 1; margin: 0; padding: 0; display: flex; flex-wrap: wrap; margin-bottom: 2rem; }
-.intro__workshop { flex: 1; list-style: none; position: relative; padding-left: 50px; width: 30%; padding-right: 30px; }
+.intro__workshops { flex: 1; margin: 0; padding: 0; display: flex; flex-direction: column; margin-bottom: 2rem; }
+.intro__workshop { flex: 1; list-style: none; position: relative; padding-left: 50px; padding-right: 30px; }
+@media all and (min-width: 700px) { .intro__workshops { flex-direction: row; flex-wrap: wrap; } .intro__workshop { width: 30%; } }
 .intro__workshop-title { font-size: 1rem; }
 .intro__workshop-icon { position: absolute; top: 9px; left: 0; width: 28px; height: 28px; opacity: 0.6; }
 
