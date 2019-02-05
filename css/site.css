@@ -62,8 +62,13 @@ header { background: white; display: flex; flex-direction: row; justify-content:
 .intro__workshop-credit { color: #999; }
 @media all and (min-width: 700px) { .intro__workshop-image { max-width: 600px; } .intro__workshop-title { font-size: 2rem; } }
 
+.schedule__container { padding: 0 5vw; }
+.schedule { background: #eee; padding-top: 2rem; padding-bottom: calc(10vw + 2rem);  }
+.schedule__table { font-size: 0.8rem; }
+.schedule__title { text-align: center; margin-bottom: 1.5rem; }
+.schedule__time { color: #666; padding-right: 0.8rem; text-align: right; white-space: nowrap; vertical-align: top; }
 
-.sdata { background-color: #161426; color: #fff; -webkit-clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); padding: 10vw 5vw 15vw 5vw; }
+.sdata { background-color: #161426; color: #fff; -webkit-clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); padding: 10vw 5vw 15vw 5vw; margin-top: -10vw; }
 .sdata__title { font-size: 3rem; line-height: 1.2; margin-bottom: 1rem; }
 @media all and (min-width: 700px) { .sdata__asset { margin-top: 5rem; } }
 
