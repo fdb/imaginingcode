@@ -53,13 +53,14 @@ header { background: white; display: flex; flex-direction: row; justify-content:
 .intro__button { display: block; background-color: #611f69; color: #fff; text-transform: uppercase; white-space: nowrap; font-size: 14px; padding: 1rem; border-radius: 4px; text-decoration: none; margin-bottom: 0.4rem; text-align: center; }
 .intro__help { font-size: 0.8rem; }
 .intro__workshops { flex: 1; margin: 0; padding: 0; display: flex; flex-direction: column; margin-bottom: 2rem; }
-.intro__workshop { flex: 1; display: flex; flex-direction: column; align-items: center; list-style: none; position: relative; padding-left: 50px; margin-bottom: 2rem; }
-@media all and (min-width: 700px) { .intro__workshops {  } .intro__workshop { } }
-.intro__workshop-title { font-size: 2rem; color: #4B124C; align-self: flex-start; }
+.intro__workshop { flex: 1; display: flex; flex-direction: column; align-items: center; list-style: none; margin-bottom: 2rem; }
+.intro__workshop-title-wrap { align-self: flex-start; display: flex; flex-direction: row; justify-content: flex-start; align-items: center; margin-bottom: 1rem; }
+.intro__workshop-title { font-size: 1.3rem; line-height: 1.3; color: #4B124C; align-self: flex-start; margin-left: 15px; }
 .intro__workshop-blurb { align-self: flex-start; }
-.intro__workshop-icon { position: absolute; top: 0.8rem; left: 0; width: 28px; height: 28px; opacity: 0.6; }
-.intro__workshop-image { max-width: 600px; border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); }
+.intro__workshop-icon { top: 0.0rem; left: 0; width: 28px; height: 28px; opacity: 0.6; }
+.intro__workshop-image { border-radius: 5px; box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); margin-bottom: 1rem; }
 .intro__workshop-credit { color: #999; }
+@media all and (min-width: 700px) { .intro__workshop-image { max-width: 600px; } .intro__workshop-title { font-size: 2rem; } }
 
 
 .sdata { background-color: #161426; color: #fff; -webkit-clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); clip-path: polygon(0 0,100% 10vw,100% 100%,0 calc(100% - 10vw)); padding: 10vw 5vw 15vw 5vw; }
