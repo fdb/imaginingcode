@@ -86,10 +86,10 @@ header { background: white; display: flex; flex-direction: row; justify-content:
 .expert__field { color: #333333; font-size: 0.75rem; margin-bottom: 30px; text-transform: uppercase; letter-spacing: -0.5px; }
 .expert__summary { font-size: 14pt; line-height: 1.6; margin-bottom: 50px; }
 .expert__text { font-size: 11pt; margin-bottom: 1rem; }
-.expert__sidebar { flex-basis: 40%; padding: 0 5vw; margin-top: 100px; display: flex; flex-direction: column; align-items: center; }
+.expert__sidebar { flex-basis: 40%; padding: 0 5vw; margin-top: 100px; align-items: center; }
 .expert__bio { font-size: 11pt; margin-bottom: 1rem; }
-.expert__mugshots { display: flex; flex-direction: row;  }
-.expert__mugshot { margin-bottom: 50px; margin-left: 5px; margin-right: 5px; border-radius: 50%; overflow: hidden; }
+.expert__mugshots { display: flex; flex-direction: row; height: 120px; margin-bottom: 1rem; }
+.expert__mugshot { margin-bottom: 50px; margin-left: 5px; margin-right: 5px; border-radius: 50%; overflow: hidden; height: 120px; }
 .expert__mugshot img { display: block; }
 .expert__logo { margin-bottom: 30px; }
 
